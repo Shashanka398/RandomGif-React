@@ -16,7 +16,7 @@ import useGif from '../hooks/useGif';
         {
             loading ?(<Spinner/>):  ( <img src={gif} width="350px"  className='rounded-lg' height="50" alt="random-img" /> )
         }
-        <button onClick={clickHandler} className='bg-white w-6/12 text-lg  opacity-70 rounded-lg text-center mb-[25px]'>Generate</button>
+        <button onClick={clickHandler} className='bg-white w-6/12 text-lg hover:bg-sky-700 opacity-70 rounded-lg text-center mb-[25px]'>Generate</button>
     </div>
 
   )
